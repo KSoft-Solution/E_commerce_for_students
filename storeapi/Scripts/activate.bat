@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD:storeapi/Scripts/activate.bat
 set VIRTUAL_ENV=D:\python_project\E_commerce_for_students\storeapi
+=======
+set VIRTUAL_ENV=C:\Users\soubh\Desktop\py project\project\E_commerce_for_students\store_apis
+>>>>>>> 08e2cc07abaf67b683b5db6a67d1d3710df46dfe:store_apis/Scripts/activate.bat
 
 if not defined PROMPT set PROMPT=$P$G
 
