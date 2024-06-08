@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=D:\2024\PYTHON_PROJECTS_FOR_OUR_STUDENTS\py_e_commerce2024_1\store_apis
+set VIRTUAL_ENV=C:\Users\soubh\Desktop\py project\project\E_commerce_for_students\store_apis
 
 if not defined PROMPT set PROMPT=$P$G
 
