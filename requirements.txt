@@ -1,2 +1,6 @@
 fastapi
 numpy
+sqlalchemy
+mysql-connector-python         
+pymysql
+uvicorn
