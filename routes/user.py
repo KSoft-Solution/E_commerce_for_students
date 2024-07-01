@@ -9,7 +9,7 @@ router = APIRouter()
 @router.get('/my_profile')
 def get_my_name() :
     profile:dict = { 
-        "name":"ashok sahu",
+        "name":"kanha sahu",
         "age":29,
         "job":"software engineer",
         "friends":['arup','gopal']
@@ -24,3 +24,4 @@ def get_my_name() :
     data = jsonable_encoder(response)
     
     return JSONResponse(content=data)
+
